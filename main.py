@@ -51,5 +51,6 @@ for i in ['Age', 'Attrition', 'BusinessTravel', 'DailyRate', 'Department', 'Dist
 
 # CODE TO CHANGE IN THE RECIPE IN DATAIKU BEFORE RUNNING IT
 ## Recipe outputs
+
 #ibm_hr_numbers_standardized_sql = dataiku.Dataset("IBM_HR_Numbers_Standardized_SQL")
 #dkuspark.write_with_schema(ibm_hr_numbers_standardized_sql, df) here instead of "Spark_DataFrame", substitute it with the actual name of the dataframe
